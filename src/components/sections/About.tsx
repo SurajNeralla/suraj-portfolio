@@ -108,7 +108,7 @@ const About = () => {
               className="relative flex-shrink-0"
             >
               <img
-                src="/profile.jpg"
+                src={`${import.meta.env.BASE_URL}profile.jpeg`}
                 alt="Suraj Neralla"
                 className="w-32 h-32 rounded-2xl object-cover relative z-10 border border-white/10 shadow-2xl"
                 style={{ objectPosition: 'center 12%' }}

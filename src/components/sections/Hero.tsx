@@ -164,7 +164,7 @@ const Hero = () => {
               </motion.button>
 
               <motion.a
-                href="/resume.pdf"
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
                 download
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.97 }}
@@ -275,7 +275,7 @@ const Hero = () => {
                 }}
               >
                 <img
-                  src="/profile.jpg"
+                  src={`${import.meta.env.BASE_URL}profile.jpeg`}
                   alt="Suraj Neralla"
                   className="w-full h-full object-cover"
                   style={{ objectPosition: 'center 12%' }}

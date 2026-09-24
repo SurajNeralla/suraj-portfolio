@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Shield, Terminal, Wifi, Lock, Eye, AlertTriangle, Server, Cpu } from 'lucide-react';
+import { Shield, Terminal, Wifi, Lock, Eye, AlertTriangle, Server } from 'lucide-react';
 
 const tools = [
   { name: 'Kali Linux', icon: '🐉', desc: 'Primary OS for ethical hacking & penetration testing', color: '#10B981', level: 90 },

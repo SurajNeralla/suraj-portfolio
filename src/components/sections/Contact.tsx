@@ -139,7 +139,7 @@ const Contact = () => {
 
             {/* Resume download */}
             <motion.a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               download
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}

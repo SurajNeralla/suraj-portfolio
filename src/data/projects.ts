@@ -25,7 +25,7 @@ export const projects: Project[] = [
     color: '#3B82F6',
     icon: '🎓',
     domain: 'web',
-    image: '/projects/placement_portal.png',
+    image: 'projects/placement_portal.png',
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     color: '#06B6D4',
     icon: '🚌',
     domain: 'web',
-    image: '/projects/gvp_bus.png',
+    image: 'projects/gvp_bus.png',
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     color: '#8B5CF6',
     icon: '🤖',
     domain: 'ai',
-    image: '/projects/attendance.png',
+    image: 'projects/attendance.png',
   },
   {
     id: 4,
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     color: '#F43F5E',
     icon: '🛡️',
     domain: 'cybersecurity',
-    image: '/projects/deepfake.png',
+    image: 'projects/deepfake.png',
   },
   {
     id: 5,
@@ -81,6 +81,6 @@ export const projects: Project[] = [
     color: '#10B981',
     icon: '🏏',
     domain: 'web',
-    image: '/projects/shc_player.png',
+    image: 'projects/shc_player.png',
   },
 ];

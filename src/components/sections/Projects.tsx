@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, ArrowRight, Globe, Shield } from 'lucide-react';
+import { ExternalLink, ArrowRight } from 'lucide-react';
 import { GithubIcon } from '../ui/icons';
 import { projects } from '../../data/projects';
 
